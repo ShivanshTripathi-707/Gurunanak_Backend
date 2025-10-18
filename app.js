@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
 app.use(cors({
-    origin : ["http://localhost:5173", "http://localhost:5174", "https://gurunanakadmin.netlify.app", "https://gurunanakpg.netlify.app"],
+    origin : ["http://localhost:5173", "http://localhost:5174", "https://gurunanakpanel.netlify.app", "https://gurunanakboyspg.netlify.app"],
     credentials: true
 }))
 ConnectDB()
